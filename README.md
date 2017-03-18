@@ -1,2 +1,2 @@
 # Web_Programming
-(Spring 2015) 《Web Programming》 Project in School of Global Media, Soongsil University
+(Spring 2015) 《Web Programming》 Project in Global School of Media, Soongsil University
