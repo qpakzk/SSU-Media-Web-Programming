@@ -1,0 +1,247 @@
+/* same */
+@font-face{
+	font-family: 'Typo_MoonFlowerM';
+	src: url('font/Typo_MoonFlowerM.ttf');
+	
+}
+@font-face{
+	font-family: 'Typo_HongikinganB';
+	src: url('font/Typo_HongikinganB.ttf');
+	}
+
+body{
+	background-color: #DFF;
+	font-family: Typo_MoonFlowerM, Gerogia, serif;
+	
+	
+}
+
+header{
+	font-family: 'Typo_HongikinganB';
+	color: #000066;
+	font-size: 50px;
+	font-weight: bolder;
+	text-shadow: 3px 3px 7px #666666;
+	text-align: center;
+	letter-spacing: 0.2em;
+	margin: 50px auto;
+	
+	
+	
+}
+nav{
+	
+	width: 900px;
+	height: 60px;
+	background-color: #0000FF;
+	margin: 50px auto;
+	overflow: hidden;
+	
+}
+nav ul{
+	color: blue;
+	list-style-type: none;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+
+	
+}
+
+nav ul li{
+	display: inline;	 
+}
+nav ul li a{
+	
+	text-decoration: none;
+	padding: 10px 10px;
+	border: 2px solid white;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+	
+}
+nav ul li a:link{
+	color: white;
+	
+}
+
+nav ul li a:visited{
+	color: white;
+	
+}
+nav ul li a:focus {
+	color: #FF66FF;
+}
+nav ul li a:hover{
+	color: #FF66FF;
+}
+nav ul li a:active{
+	color: #FF66FF;
+}	
+section{
+	width: 900px;
+	border: 4px double blue;
+	margin: 1px auto;
+	padding: 10px;
+	background-color: white;
+	overflow:hidden;
+}
+footer{
+	float: right;
+}
+
+
+
+
+/* Home */
+#alarm p{
+	text-align: center;
+	font-size: 50px;
+}
+#calendar table{
+	height: 500px;
+	float: left;
+	
+}
+#alarm{
+	float: left;
+	width: 450px;
+	
+	margin-right: 5px;
+	
+	}
+
+#year{
+	font-size: 50px;
+	font-family: Typo_HongikinganB;
+	font-weight: bolder;
+	
+}
+.month{
+	font-size: 30px;
+	font-family: Typo_HongikinganB;
+	font-weight: bold;
+}
+
+
+
+#column{
+	margin: 0 10px;
+	font-size: 20px;
+	font-weight:bold;
+	
+}
+#SNS{
+	margin-bottom: 30px;
+}
+#column a{
+	text-decoration:none;
+	
+	margin-left: 10px;
+	
+}
+#column img{
+	height: 50px;
+	width: 50px;
+	clear: both;
+}
+
+
+/* School */
+.schedule img{
+	margin: 20px 30px;
+	height: 600px;
+	width: 300px;
+	
+}
+
+.lecture table{
+	float: left;
+	margin: 20px;
+	height: 500px;
+	
+}
+
+section  h2{
+	text-align: center;
+	font-size: 50px;
+}
+
+section  h2{
+	text-align: center;
+	font-size: 50px;
+}
+
+
+#column h4{
+	text-align: center;
+}
+
+/* Personal Details */
+#myInfo{
+	float: left;
+	width: 450px;
+	border-right-style: dotted;
+	border-right-color: blue;
+	padding: 10px;
+	background-color: white;
+	
+}
+
+#intereting{
+	
+	width: 400px;
+	float: right;
+	padding: 10px;
+	background-color: white;
+}
+#intereting figure img{
+	margin-top: 0;
+	
+	width: 100px;
+	height: 150px;
+	float: left;
+	margin: 0 25px;
+	
+	
+	
+}
+ 
+dt{
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+#myInfo dd a{
+	text-decoration: none;
+	color: blue;
+}
+
+#myInfo dd a:link{
+	
+	color: blue;
+}
+#myInfo dd a:visited{
+	color: blue;
+}
+#myInfo dd a:hover{
+	background-color: cyan;
+	color: darkcyan;
+}
+#myInfo dd a:focus{
+	background-color: cyan;
+	color: darkcyan;
+}
+#myInfo dd a:active{
+	color: cyan;
+}
+
+
+
+#myInfo dd img{
+	width: 20px;
+	height: 20px;
+}
